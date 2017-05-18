@@ -1,0 +1,27 @@
+{
+  "Resource":[
+{
+  "name":  "Palmetto",
+  "scheduler": "PBS",
+  "hostName"  :"user.palmetto.clemson.edu",
+  "userName"  :"bramakr",
+  "RemoteTmp"  :"/home/bramakr",
+  "transferType": "ssh"
+},
+
+{
+  "name":  "OSG",
+  "scheduler": "Condor",
+  "hostName"  :"login.osgconnect.net",
+  "userName"  :"bramakr",
+  "RemoteTmp"  :"/home/bramakr",
+  "transferType": "ssh"
+}
+],
+
+  "default":[
+{
+  "name": "Palmetto"
+}
+]
+}

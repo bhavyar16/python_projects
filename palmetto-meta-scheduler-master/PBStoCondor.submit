@@ -1,0 +1,9 @@
+verse = vanilla
+error = err.$(Process)
+output = out.$(Process)
+log = log.$(Process)
+Executable = foo.sh
+Arguments = $(Process)
+Request_memory =3gb
+queue 5
+
